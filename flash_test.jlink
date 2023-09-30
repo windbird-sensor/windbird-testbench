@@ -1,0 +1,8 @@
+ExitOnError
+if swd
+speed 4000
+device EFM32G210F128
+r
+h
+loadfile "windbird-test-firmware.bin", 0
+exit
